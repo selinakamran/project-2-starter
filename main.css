@@ -25,6 +25,7 @@ Body{
               padding: 20px;
               width: 150px;
               height: 100px;
+              
            
            
  }
@@ -62,117 +63,115 @@ Body{
 margin-left: -10px;
     position: absolute;
 }
-}
-
 .tile3{
-    display:flex;
-    width: 40vw;
-    height: 12vh;
-    align-items: flex-start;
-    justify-content: end;
-    margin-top: -5px;
-    margin-left: -10px;
-        position: absolute;
-    background-color: rgb(109, 109, 109); 
-}
-.tile4{
-        display:flex;
-        width: 20vw;
-        height: 60vh;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row ;
-        background-color: rgb(50, 49, 49);
-        margin-top: -5px;
-        margin-left: -10px;
-            position: absolute;}
+    width: 1%;
+    height: 1%;
+    background-color: rgb(255, 0, 0);
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+     margin-top: 1600px;
+ margin-left: -10px;
+    position: absolute;}
+ .tile4{
+    width: 1%;
+    height: 1%;
+    background-color: rgb(255, 0, 0);
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+     margin-top: 1600px;
+ margin-left: -10px;
+    position: absolute;}
+.tile5{
+    width: 10px;
+    height: 20px;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+ border-radius: 30px;
+    margin-top: 1600px;
+margin-left: 400px;
+    position: absolute;
+    }
 
-    .tile5{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }
-        .tile6{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }
-        .tile7{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }
-        .tile8{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }
-        .tile9{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }.tile10{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }
+.tile6{
+    width: 1%;
+    height: 1%;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+ 
+    margin-top: 1200px;
+margin-left: 400px;
+    position: absolute;
+}
+
+.tile7{
+    width: 1%;
+    height: 1%;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+ 
+    margin-top: 1200px;
+margin-left: -10px;
+    position: absolute;
+}
+
+.tile8{
+    width: 1%;
+    height: 1%;
+    background-color: rgb(119, 44, 44);
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+ 
+    margin-top: 750px;
+margin-left: -10px;
+    position: absolute;
+}
+
+
+.tile9{
+    width: 1%;
+    height: 1%;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+ 
+    margin-top: 750px;
+margin-left: 425px;
+    position: absolute;
+}
+
+.tile10{
+    width: 5%;
+    height: 1%;
+    background-color: rgb(87, 0, 0);
+    /* spacing tiles */
+    margin: 7%;
+    padding: 150px;
+    border-radius: 30px;
+    margin-top: 400px;
+margin-left: -10px;
+    position: absolute;
+}
+
         .tile11{
             display:flex;
             width: 40vw;
             height: 12vh;
             align-items: center;
             justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
+            margin-top: 600px;
+            margin-left: 400px;
                 position: absolute;
-            background-color: rgb(109, 109, 109); 
-        }.flex11{
-            display:flex;
-            width: 40vw;
-            height: 12vh;
-            align-items: center;
-            justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
+            background-color: rgb(83, 0, 0); 
         }
         .tile12{
             display:flex;
@@ -180,10 +179,10 @@ margin-left: -10px;
             height: 12vh;
             align-items: center;
             justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
+            margin-top: 400px;
+            margin-left: 400px;
                 position: absolute;
-            background-color: rgb(109, 109, 109); 
+            background-color: rgb(83, 0, 0); 
         }
         .tile13{
             display:flex;
@@ -191,10 +190,10 @@ margin-left: -10px;
             height: 12vh;
             align-items: center;
             justify-content: center;
-            margin-top: -5px;
-            margin-left: -10px;
-                position: absolute;
-            background-color: rgb(109, 109, 109); 
+            margin-top: 500px;
+            margin-left: 400px;
+            position: absolute;
+            background-color: rgb(83, 0, 0); 
         } 
     
     
@@ -208,7 +207,7 @@ margin-left: -10px;
     
     
     
-}
+
     
     
     
