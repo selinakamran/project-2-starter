@@ -1,4 +1,59 @@
 /* STYLE FOR YOUR INDEX.HTML */
+@font-face {
+
+        font-family: myfont;
+        src: url("assets/font1/arabnight.ttf");
+   
+}
+head{
+   
+}
+Body{
+    text-align: center;
+    background-color:rgb(20, 20, 20);
+    font-family: myfont;
+    color: rgb(190, 112, 112) ;
+    font-size: 30px;}
+
+
+
+.flex1{
+    display:flex;
+    width: 90vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: rgb(81, 0, 0);
+}
+.tile1{
+    width: 10%;
+    height: 20%;
+    position: center;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 50px;
+}
+.tile2{
+    width: 10%;
+    height: 20%;
+    position: center;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 50px;
+}
+.tile3{
+    width: 10%;
+    height: 20%;
+    position: center;
+    background-color: grey;
+    /* spacing tiles */
+    margin: 7%;
+    padding: 50px;
+}
 
 
 
