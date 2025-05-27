@@ -19,13 +19,14 @@ Body{
 
 .flex1{
     display:flex;
-    width: 90vw;
+    width: 100vw;
     height: 50vh;
     align-items: center;
     justify-content: center;
     align-content: center;
-    flex-direction: row;
+    flex-direction: row ;
     background-color: rgb(81, 0, 0);
+   
 }
 .tile1{
     width: 10%;
@@ -54,7 +55,22 @@ Body{
     margin: 7%;
     padding: 50px;
 }
+.flex2{
+    display:flex;
+    width: 40vw;
+    height: 12vh;
+    align-items: center;
+    justify-content: center;
 
-
-
+    background-color: rgb(255, 255, 255); 
+}
+.flex3{
+        display:flex;
+        width: 100vw;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row ;
+        background-color: rgb(0, 0, 0);}
 
