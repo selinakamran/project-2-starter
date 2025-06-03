@@ -5,13 +5,9 @@
     src: url("assets/font1/arabnight.ttf");
 }
 
-
-
-
 head{
    
 }
-
 
 .pathway{
     background-color: black;
@@ -19,79 +15,65 @@ head{
     text-align: center;
     
 }
-Body{
-   
-    background-color:rgb(20, 20, 20);
-     text-align: end;
 
+Body{
+    background-color:rgb(20, 20, 20);
+    text-align: end;
     color: rgb(255, 255, 255) ;
     font-size: 5px; 
-
-
-
 } 
 .flex-container {
     display: flex;
     justify-content: center; 
     align-items: center;      
     height: 100vh;           
-  }
-  
-
-  .tile1{
-  
-
-
+}
+.tile1{
    margin: 5%;
    padding: 150px;
-
-
-  
    background-color: rgba(0, 0, 0, 0.808);
    border-radius: 30px;
- 
- 
- margin-top: -20px;
- margin-left:400px;
+   margin-top: -20px;
+   margin-left:400px;
  }
 
     
-        .mainbtn {
-            padding: 12px 24px;
-            font-size: 16px;
-            cursor: pointer;
-            border: 2px solid #000000; 
-            background-color: transparent;
-            color: #6d5656;
-            border-radius: 10px;
-            animation: spin 5s linear;
-            margin-bottom: 8%;
-            font-family: myfont;
-          }
+.mainbtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #000000; 
+  background-color: transparent;
+  color: #6d5656;
+  border-radius: 10px;
+  animation: spin 5s linear;
+  margin-bottom: 8%;
+  font-family: myfont;
+}
           
         
-          @keyframes spin {
-            from {
-              transform: rotate(180deg);
-            }
-            to {
-              transform: rotate(0deg);
-            }
-          }
+@keyframes spin {
+    from {
+    transform: rotate(180deg);
+}
+    to {
+    transform: rotate(0deg);
+}
+}
           
         
-        .mainbtn:hover {
-            background-color: #000000;
-            color: rgb(91, 0, 0);
+.mainbtn:hover {
+  background-color: #000000;
+  color: rgb(91, 0, 0);
           
-          }
+}
         
-        .mainbtn:active {
-            animation: spin 15s;
-            background-color: #000000; 
-            color: #000000; 
-            border-color: #000000;
-          }
+.mainbtn:active {
+   animation: spin 15s;
+   background-color: #000000; 
+   color: #000000; 
+   border-color: #000000;
+}
 
           
     
