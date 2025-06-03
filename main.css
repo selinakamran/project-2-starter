@@ -31,18 +31,14 @@ Body{
  }
 
 .tile1{
-  /* Make this into a flexbox using display: flex */
-    /* Use flexbox properties to stack elements in your tiles vertically and center them */
-
-    /* setting the width for each tile */
+  
     width: 50%;
   
 
-    /* spacing tiles */
     margin: 5%;
     padding: 150px;
 
-    /* background color for tile, feel free to change */
+    
     background-color: rgba(0, 0, 0, 0.808); 
 
     border-radius: 30px;

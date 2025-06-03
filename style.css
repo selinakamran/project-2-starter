@@ -47,11 +47,10 @@ body {
     padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
-    border: 2px solid #8B0000; /* blood red border */
+    border: 2px solid #000000; 
     background-color: transparent;
-    color: #8B0000;
-    border-radius: 8px;
-    transition: background-color 0.3s, color 0.3s;
+    color: #6d5656;
+    border-radius: 10px;
     animation: spin 50s linear infinite;
   }
   
@@ -66,11 +65,58 @@ body {
   }
   
 
-  .spin-button:hover {
-    background-color: #8B0000;
-    color: rgb(0, 0, 0);
+.mainbtn:hover {
+    background-color: #000000;
+    color: rgb(91, 0, 0);
+  }
+
+.mainbtn:active {
+    animation: spin 15s;
+    background-color: #000000; 
+    color: #000000; 
+    border-color: #000000;
   }
   
+  .flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+    padding: 2vw;
+    background-color: #131313;
+    flex-wrap: wrap; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .tile {
+    background-color: black;
+    color: white;
+    width: 25vw;
+    max-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow:0 0 100px #000;
+    transition: transform 0.3s ease;
+  }
+  
+  .tile img {
+    width: 100%;
+    display: block;
+    border-bottom: 20px solid #8B0000;
+  
+  }
+  
+  .tile {
+    margin: 1%;
+    font-size: 100%;
+    color: #ffffff;
+  }
+  
+  .tile:hover {
+    transform: scale(1.6);
+  }
   
  
   
