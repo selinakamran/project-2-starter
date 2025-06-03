@@ -6,16 +6,32 @@ head{
 .pathway{
     background-color: black;
     width: 300px;
-    text-align: center;
+    text-align: end;
     
 }
 Body{
-    text-align: end;
+    
     background-color:rgb(20, 20, 20);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color: rgb(255, 255, 255) ;
-    font-size: 5px; } 
+    font-size: 5px; 
+justify-content: center;
+align-items: center;
+display: flex;
 
+
+} 
+.wall{  margin-top: 1000px;
+    padding: 20px;
+    width: %;
+
+}
+.wall2{
+    margin-top: 3000px;
+    padding: 20px;
+    width: 50%;
+
+}
 .flex1{
     display:flex;
     width: 100vw;
@@ -32,21 +48,28 @@ Body{
 
 .tile1{
   
-    width: 50%;
-  
-
-    margin: 5%;
+    
     padding: 150px;
 
-    
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.808); 
 
     border-radius: 30px;
    
    
-  margin-top: 14px;
+  margin-top: 0px;
   margin-left:400px;
+
 }
+
+  
+  .tile1 img {
+    width: 400%;
+height: auto;
+margin-left: -150%;
+    border-radius: 10px;
+  }
+  
 .tile2{
     width: 1%;
     height: 1%;
@@ -193,7 +216,42 @@ margin-left: -10px;
         } 
     
     
-    
+        .mainbtn {
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #000000; 
+            background-color: transparent;
+            color: #6d5656;
+            border-radius: 10px;
+            animation: spin 5s linear;
+            margin-top: ;
+          }
+          
+        
+          @keyframes spin {
+            from {
+              transform: rotate(180deg);
+            }
+            to {
+              transform: rotate(0deg);
+            }
+          }
+          
+        
+        .mainbtn:hover {
+            background-color: #000000;
+            color: rgb(91, 0, 0);
+          }
+        
+        .mainbtn:active {
+            animation: spin 15s;
+            background-color: #000000; 
+            color: #000000; 
+            border-color: #000000;
+          }
+
+          
     
     
     
