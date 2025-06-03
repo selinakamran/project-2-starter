@@ -1,76 +1,90 @@
-/* STYLE FOR YOUR INDEX.HTML */
 @font-face {
-
-        font-family: myfont;
-        src: url("assets/font1/arabnight.ttf");
-   
-}
-head{
-   
-}
-Body{
-    text-align: center;
-    background-color:rgb(20, 20, 20);
     font-family: myfont;
-    color: rgb(190, 112, 112) ;
-    font-size: 30px;}
+    src: url("assets/font1/arabnight.ttf");
+}
+
+body {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    font-family: myfont;
+    color: rgb(190, 112, 112);
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0;
+}
 
 
-
-.flex1{
-    display:flex;
+.flex1, .flex3 {
+    display: flex;
     width: 100vw;
     height: 50vh;
     align-items: center;
     justify-content: center;
-    align-content: center;
-    flex-direction: row ;
     background-color: rgb(81, 0, 0);
-   
 }
-.tile1{
-    width: 10%;
-    height: 20%;
-    position: center;
-    background-color: grey;
-    /* spacing tiles */
-    margin: 7%;
-    padding: 50px;
-}
-.tile2{
-    width: 10%;
-    height: 20%;
-    position: center;
-    background-color: grey;
-    /* spacing tiles */
-    margin: 7%;
-    padding: 50px;
-}
-.tile3{
-    width: 10%;
-    height: 20%;
-    position: center;
-    background-color: grey;
-    /* spacing tiles */
-    margin: 7%;
-    padding: 50px;
-}
-.flex2{
-    display:flex;
-    width: 40vw;
+
+.flex2 {
+    display: flex;
+    width: 90vw;
     height: 12vh;
     align-items: center;
     justify-content: center;
-
-    background-color: rgb(255, 255, 255); 
+    background-color: white;
+    margin: auto;
 }
-.flex3{
-        display:flex;
-        width: 100vw;
-        height: 50vh;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row ;
-        background-color: rgb(0, 0, 0);}
 
+
+.tile, .tile2, .tile3 {
+    width: 15%;
+    height: 30%;
+    background-color: grey;
+    margin: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+
+.flex-images, .flex-images2, .flex-images3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vw;
+    background-color: #1a1a1a;
+}
+
+
+.flex-images img,
+.flex-images2 img,
+.flex-images3 img {
+    width: 20vw;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.flex-images img:hover,
+.flex-images2 img:hover,
+.flex-images3 img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 4vw;
+    }
+
+    .tile, .tile2, .tile3 {
+        width: 40%;
+        padding: 5%;
+    }
+
+    .flex-images img,
+    .flex-images2 img,
+    .flex-images3 img {
+        width: 80%;
+    }
+}
