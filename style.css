@@ -5,86 +5,73 @@
 
 body {
     text-align: center;
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient( #808080 0%, #8B0000 100%);
     font-family: myfont;
-    color: rgb(190, 112, 112);
+    color: rgb(118, 2, 2);
     font-size: 2.5vw;
     margin: 0;
     padding: 0;
 }
 
 
-.flex1, .flex3 {
-    display: flex;
-    width: 100vw;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(81, 0, 0);
-}
-
-.flex2 {
-    display: flex;
-    width: 90vw;
-    height: 12vh;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin: auto;
-}
-
-
-.tile, .tile2, .tile3 {
-    width: 15%;
-    height: 30%;
-    background-color: grey;
-    margin: 2%;
-    padding: 3%;
-    box-sizing: border-box;
-}
-
-
-.flex-images, .flex-images2, .flex-images3 {
+.flex1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 100vw;
+    height: auto; 
     align-items: center;
+    justify-content: center;
     gap: 2vw;
+    background-color: rgb(81, 0, 0);
     padding: 2vw;
-    background-color: #1a1a1a;
-}
-
-
-.flex-images img,
-.flex-images2 img,
-.flex-images3 img {
+    box-sizing: border-box;
+  }
+  
+ 
+  .flex1 img {
     width: 20vw;
-    max-width: 100%;
     height: auto;
-    transition: transform 0.3s ease;
-}
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .flex1 img:hover {
+    transform: scale(3);
+  }
+  .flex2{
+    flex-wrap: wrap;
+   background-color: black;
+    height: auto; 
+  }
+  .mainbtn {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #8B0000; /* blood red border */
+    background-color: transparent;
+    color: #8B0000;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    animation: spin 50s linear infinite;
+  }
+  
 
-
-.flex-images img:hover,
-.flex-images2 img:hover,
-.flex-images3 img:hover {
-    transform: scale(1.05);
-}
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 4vw;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
     }
-
-    .tile, .tile2, .tile3 {
-        width: 40%;
-        padding: 5%;
+    to {
+      transform: rotate(360deg);
     }
+  }
+  
 
-    .flex-images img,
-    .flex-images2 img,
-    .flex-images3 img {
-        width: 80%;
-    }
-}
+  .spin-button:hover {
+    background-color: #8B0000;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+ 
+  
+  
