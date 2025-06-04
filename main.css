@@ -29,16 +29,12 @@ Body{
     height: 100vh;           
 }
 .tile1{
-   margin: 5%;
-   padding: 150px;
-   background-color: rgba(0, 0, 0, 0.808);
-   border-radius: 30px;
-   margin-top: -20px;
-   margin-left:400px;
    width: auto;
- }
-
-    
+   padding-right: 50%;
+   background-color: #000000;
+   margin-right: 30%;
+   
+ } 
 .mainbtn {
   padding: 12px 24px;
   font-size: 16px;
@@ -48,8 +44,9 @@ Body{
   color: #6d5656;
   border-radius: 10px;
   animation: spin 5s linear;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
   font-family: myfont;
+  
 }
           
         
@@ -75,6 +72,17 @@ Body{
    color: #000000; 
    border-color: #000000;
 }
+
+.tile1img {
+    display: block;         
+    max-width: 100% ; min-width: 40%;
+    border: #000000 50px solid;
+    border-radius: 20%;
+    background-color: #000000;
+    margin-right: 50%;
+}
+  
+   
 
           
     
