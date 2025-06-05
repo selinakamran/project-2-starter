@@ -2,6 +2,7 @@
     font-family: myfont;
     src: url("assets/font1/arabnight.ttf");
  }
+ 
 
 body{
   background: linear-gradient(to bottom, #380b0e, #882121, #170103);
@@ -9,6 +10,8 @@ body{
   padding: 20px;
   font-family: myfont;
   text-align: center;
+  width: auto;
+  height: auto;
 }
 
 
@@ -131,12 +134,29 @@ body{
 .allfaces{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  height: 500px;
   margin: 20px 0;
   border-radius: 10px;
   border-color: #000000;
   box-shadow:0 0 100px #000;
+  animation: sidetoside 5s ease-in-out infinite;
 }
+.tvduniverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 20px 0;
+    margin-right: 1px;
+    border-radius: 10px;
+    box-shadow:0 0 100px #000;
+    transform: translate(600px, -500px);
+    animation: sidetoside2 5s ease-in-out infinite;
+}
+
 .btn1{
     background-color: #a12d2d;
     color: white;
@@ -148,6 +168,7 @@ body{
     border-color: #380b0e;
     cursor: pointer;
     font-family: cursive;
+
 }
 .btn2{
     background-color: #922121;
@@ -175,22 +196,78 @@ body{
 }
 .sidecharacters {
     background-color: #2a0000;
-    color: #000000;
+    color: #e0dada;
     padding: 40px 20px;
     border-radius: 20px;
     max-width: 1000px;
     margin: auto;
     text-align: center;
+    font-size: larger;
   }
   
-.sidec h4 {
-    font-size: 2%;
-    margin-bottom: 30px;
-    color: #ffcccc;
+.sidec{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+
   }
-.side{
-   
+.side1{
+    background-color: #400000;
+    padding: 20px;
+    border-radius: 16px;
+    flex: 1 1 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.side2{
+    background-color: #400000;
+    padding: 20px;
+    border-radius: 16px;
+    flex: 1 1 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.side3{
+    background-color: #400000;
+    padding: 20px;
+    border-radius: 16px;
+    flex: 1 1 250px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+.photo{
+    width: 200px;         
+    height: 250px;       
+    object-fit: cover;    
+    border-radius: 10px; 
+}
+@keyframes sidetoside {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(30px); /* how far right it moves */
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
+@keyframes sidetoside2 {
+    0% {
+      transform: translateX(10);
+    }
+    50% {
+      transform: translateX(1px); /* how far right it moves */
+    }
+    100% {
+      transform: translateX(10);
+    }
+  }
+
+
+
+
+  
+
+  
 
 
 
