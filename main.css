@@ -13,14 +13,20 @@ body{
   color: white; 
   min-height: 100vh;
   padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 
     
  
 .flexcontainer{
     background-color: black;
-    border-radius: 3%;
-    font-size: small;
-    width: auto;
-    
+    border-radius: 9%;
+    border: solid black 10vw;
+    font-size: 2vw;
+    width: 40vw;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 3vw;
 }
+
