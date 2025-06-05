@@ -98,6 +98,13 @@ body{
     font-weight: bold;
     display: block;
 }
+.author {
+    background-color: #7f0000a6;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 150px;
+  }
 
 
 
