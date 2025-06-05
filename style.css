@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient( #6f3a3a 0%, #8B0000 100%);
+    background: linear-gradient( #593f3f 0%, #8B0000 100%);
     font-family: myfont;
     color: rgb(0, 0, 0);
     font-size: 3.5vw;
@@ -36,8 +36,13 @@ body {
   }
   
   .flex1 img:hover {
+    transform: scale(1.1);
+  }
+
+  .video img:hover{
     transform: scale(3);
   }
+
   .flex2{
     flex-wrap: wrap;
    background-color: black;
