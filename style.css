@@ -2,7 +2,12 @@
     font-family: myfont;
     src: url("assets/font1/arabnight.ttf");
 }
-
+head {
+   
+}
+h1{
+    box-shadow:0 0 30px #060202;
+}
 body {
     text-align: center;
     background: linear-gradient( #593f3f 0%, #8B0000 100%);
@@ -24,7 +29,7 @@ body {
     gap: 2vw;
     background-color: rgb(81, 0, 0);
     padding: 2vw;
-    box-sizing: border-box;
+    box-shadow:0 0 30px #9c1c1c;
   }
   
  
@@ -33,6 +38,7 @@ body {
     height: auto;
     max-width: 100%;
     transition: transform 0.3s ease-in-out;
+    box-shadow:0 0 30px #9c1c1c;
   }
   
   .flex1 img:hover {
@@ -41,7 +47,8 @@ body {
 
   .video img:hover{
     transform: scale(3);
-  }
+    
+   }
 
   .flex2{
     flex-wrap: wrap;
@@ -73,6 +80,8 @@ body {
 .mainbtn:hover {
     background-color: #000000;
     color: rgb(91, 0, 0);
+    box-shadow:0 0 30px #fffcfc;
+    
   }
 
 .mainbtn:active {
@@ -120,8 +129,12 @@ body {
   }
   
   .tile:hover {
-    transform: scale(1.6);
+    transform: scale(1.1);
+    box-shadow:0 0 30px #1d03a0;
+    
   }
+
+
   
  
   
