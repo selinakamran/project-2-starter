@@ -173,7 +173,24 @@ body{
     cursor: pointer;
     font-family: cursive;
 }
-
+.sidecharacters {
+    background-color: #2a0000;
+    color: #000000;
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+.sidec h4 {
+    font-size: 2%;
+    margin-bottom: 30px;
+    color: #ffcccc;
+  }
+.side{
+   
+  }
 
 
 
