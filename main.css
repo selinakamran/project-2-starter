@@ -1,0 +1,26 @@
+
+head{
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url("assets/font1/arabnight.ttf");
+ }
+
+body{
+  background: linear-gradient(to bottom, #ec9da3, #7b1e1e, #170103);
+  color: white; 
+  min-height: 100vh;
+  padding: 20px;
+}
+
+    
+ 
+.flexcontainer{
+    background-color: black;
+    border-radius: 3%;
+    font-size: small;
+    width: auto;
+    
+}
