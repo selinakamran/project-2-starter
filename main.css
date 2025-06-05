@@ -4,7 +4,7 @@
  }
 
 body{
-  background: linear-gradient(to bottom, #ec9da3, #7b1e1e, #170103);
+  background: linear-gradient(to bottom, #380b0e, #882121, #170103);
   color: white; 
   padding: 20px;
 }
@@ -12,22 +12,94 @@ body{
 .mainbtn {
     background-color: #7b0000;
     color: white;
-    padding: 10px 15px;
+    padding: 15px 15px;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
     display: inline-block;
-    border: none;
+    border-style: ridge;
+    border-color: #380b0e;
     cursor: pointer;
-    margin-right: ;
+    font-family: cursive;
   }
-.a{
+  .row {
     display: flex;
     gap: 20px;
     margin: 20px 0;
     flex-wrap: wrap;
   }
+  .box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+  }
+  .textbox{
+    background-color: #ab5b5b;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 20px;
+  }
+  .box2 {
+    background-color: #400000;
+    color: rgb(78, 51, 51);
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 40px;
+    text-align: center;
+    font-family: cursive;
+  }
+  .vote-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
   
+  .votestefan{
+    background-color: #000000;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
   
+  .votestefan:hover {
+    border-color: #ff0000;
+    transform: scale(1.05);
+    background: #340404;
+  }
+  
+  .votestefan{
+    background: linear-gradient(135deg, #2d6a4f, #40916c);
+  }
+  .votedamon{
+    background: #ffe2e2;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .votedamon:hover {
+    border-color: #321414;
+    transform: scale(1.05);
+    background: #1d0a0a;
+  }
+  
+  .votedamon {
+    background: linear-gradient(135deg, #3f37c9, #4361ee);
+  }
+  
+  .vote-option span {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+}
+
+
 
 
     
