@@ -1,8 +1,3 @@
-
-head{
-
-}
-
 @font-face {
     font-family: myfont;
     src: url("assets/font1/arabnight.ttf");
@@ -11,22 +6,29 @@ head{
 body{
   background: linear-gradient(to bottom, #ec9da3, #7b1e1e, #170103);
   color: white; 
-  min-height: 100vh;
   padding: 20px;
-  margin: 0;
-  padding: 0;
 }
+
+.mainbtn {
+    background-color: #7b0000;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    margin-right: ;
+  }
+.a{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  
+
 
     
  
-.flexcontainer{
-    background-color: black;
-    border-radius: 9%;
-    border: solid black 10vw;
-    font-size: 2vw;
-    width: 40vw;
-    text-align: center;
-    margin-top: 3vw;
-    margin-left: 3vw;
-}
-
