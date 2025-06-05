@@ -29,7 +29,9 @@ body{
     position: fixed;
     margin-left: 250px;
     margin-top: -100px;
-  }
+    z-index: 90000000; /* fixes the button going behind things*/
+    box-shadow:0 0 10px #c4bebe;  
+}
   .row {
     display: flex;
     gap: 20px;
@@ -107,6 +109,7 @@ body{
   .votedamon:hover {
     border-color: #ff0000;
     background: #1d0a0a;
+    
   }
   
   .votedamon {
@@ -122,15 +125,7 @@ body{
     box-shadow:0 0 100px #000;
     font-family: 'Times New Roman', Times, serif;
   }
-.kiss{
-    border: solid white 10px;
-    border-radius: 30px;
-    box-shadow:0 0 100px #2301ff;
-    padding: 20px;
-  
-    width: 300px;
 
-}
 .allfaces{
   display: flex;
   justify-content: center;
@@ -168,8 +163,21 @@ body{
     border-color: #380b0e;
     cursor: pointer;
     font-family: cursive;
-
+    
 }
+.btn1:hover{
+    box-shadow:0 0 150px #ffffff;
+    animation: sidetoside 2s ease ;
+}
+.btn2:hover{
+    box-shadow:0 0 150px #ffcc00;
+    animation: sidetoside 2s ease ;
+}
+.btn3:hover{
+    box-shadow:0 0 150px #00ffae;
+    animation: sidetoside 2s ease ;
+}
+
 .btn2{
     background-color: #922121;
     color: white;
@@ -279,11 +287,107 @@ body{
     box-shadow: 0 0 30px rgba(247, 241, 241, 0.797);
     border-radius: 10px;
 }
+.aboutme{
+  background-color: #000000;
+  color: #ffe6f0;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 0 30px rgba(208, 255, 1, 0.3);
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.aboutmetitle{
+    font-size: larger;
+    font-family: myfont;
+}
+.me{
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframe pulse{
+    0%{
+        box-shadow: none;
+      }
+      50% {
+        box-shadow: 0 0 20px rgba(225, 0, 100, 0.6);
+      }
+      100% {
+        box-shadow: none;
+      }
+    }
+.mainbtn:hover {
+        transform: scale(1.1);
+        box-shadow:0 0 60px #1d03a0;
+}
 
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  .mainbtn:active {
+    animation: spin 1s;
+    background-color: #7b0000; 
+    color: #000000; 
+    border-color: #000000;
+  }
+  .kiss{
+    border: solid rgb(201, 136, 136) 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 40px rgba(140, 0, 0, 0.9);
+    padding: 20px;
+    width: 300px;
+    animation: drip 10s infinite ease-in-out;
+    opacity: 0.9;
+    animation: drip2 10s infinite ease-in-out;
+}
+  .kiss:after {
+    bottom: 0;
+    left: 60%;
+    width: 12px;
+    height: 50px;
+    background: radial-gradient(circle at 50% 0%, #c6b8b8 0%, #ffffff 100%);
 
-
-
-
+  }
+  .kiss:before {
+    
+    bottom: -8px;
+    left: 55%;
+    width: 8px;
+    height: 45px;
+    background: radial-gradient(circle at 50% 0%, #000000 0%, #000000 100%);
+  }
+   
+  
+  /* tried a new keyframe to represent blood and their relationship when it was toxic*/
+    @keyframes drip {
+        0%, 100% {
+          transform: translateY(0) scaleY(1);
+          opacity: 0%;
+        }
+        50% {
+          transform: translateY(8px) scaleY(1.1);
+          opacity: 40%;
+        }
+      }
+      @keyframes drip2 {
+        0%, 100% {
+          transform: translateY(0);
+          opacity: 10%;
+        }
+        50% {
+          transform: translateY(14px);
+          opacity: 75%;
+        }
+      }
+  
+    
+    
 
   
 
